@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .login-btn {
+            background-color: #ff7300;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zoo Management System</h1>
+    </header>
+
+    <div class="login-container">
+        <h2>Zoo Details</h2>
+        <form>
+            <div class="form-group">
+                <label for="username">Zoo Name:</label>
+                <input type="text" id="zooname" placeholder="Enter the zoo name" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Zoo ID:</label>
+                <input type="text" id="zid" placeholder="Enter the zooid" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Zoo contact No.:</label>
+                <input type="text" id="zoocont" placeholder="Enter the contact number" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Zoo location:</label>
+                <input type="text" id="zoolocation" placeholder="Enter the zoo location" required>
+            </div>
+           
+            <button type="submit" class="login-btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
